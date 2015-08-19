@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Solution for the shadow casting button was found here:
+         http://droidlikecode.blogspot.ru/2013/10/create-custom-button-with-round-corner.html
+     -->
+    <!-- Bottom 2sp Shadow -->
+    <item
+        android:bottom="0sp"
+        android:top="@dimen/apps_menu_button_shadow_shift_x_2"
+        android:left="0sp"
+        android:right="0sp">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/apps_btn_shadow_color" />
+            <!-- corners android:radius="7sp" / -->
+        </shape>
+    </item>
+
+    <!-- Top color -->
+    <item
+        android:bottom="@dimen/apps_menu_button_shadow_shift"
+        android:top="@dimen/apps_menu_button_shadow_shift"
+        android:left="@dimen/apps_menu_button_shadow_shift"
+        android:right="@dimen/apps_menu_button_shadow_shift">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/special_app_btn_bg_color" />
+            <!-- corners android:radius="7sp" / -->
+        </shape>
+    </item>
+</layer-list>

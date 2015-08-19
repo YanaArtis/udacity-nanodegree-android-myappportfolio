@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="apps_menu_title_color" >#ff3A5E74</color>
+    <color name="apps_btn_text_color" >#ff000000</color>
+    <color name="apps_btn_bg_color" >#ffF08C35</color>
+    <color name="apps_btn_shadow_color" >#80808080</color>
+    <color name="special_app_btn_text_color" >#ffFFFFFF</color>
+    <color name="special_app_btn_bg_color" >#ffD93055</color>
+</resources>
